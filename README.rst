@@ -71,15 +71,13 @@ concatenation, use this command:
 
   $ bin/grunt
 
+For dist files:
+::
+
+  $ bin/grunt dist
+
 Or you can use the watcher while you're working so each time you
 modify a file the default task is executed:
 ::
 
   $ bin/grunt watch
-
-And you can minimize files for distribution with:
-::
-
-  $ bin/grunt dist
-
-
