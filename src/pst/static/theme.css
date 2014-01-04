@@ -47,6 +47,37 @@ p {
 .starter-template .content .lead .font-normal {
   color: #ffffff;
 }
+.starter-template .links {
+  float: right;
+  right: 0;
+  margin-top: 125px;
+}
+.starter-template .links ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.starter-template .links ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+.starter-template .links ul li:first-child {
+  margin-left: 0;
+}
+.starter-template .links ul li:last-child {
+  margin-right: 0;
+}
+.starter-template .links ul li.current-version {
+  color: #f2b7bd;
+  font-weight: 400;
+}
+.starter-template .links ul li a {
+  color: #ffffff;
+}
+.starter-template .links ul li a:hover {
+  text-decoration: dotted;
+}
 @media (max-width: 1199px) {
   .starter-template .content h1 {
     font-size: 45px;
@@ -66,10 +97,16 @@ p {
     margin: 40px auto;
   }
   .starter-template .content {
+    margin-left: 0;
     text-align: center;
   }
   .starter-template .content h1 {
     margin-bottom: 20px;
+  }
+  .starter-template .links {
+    float: none;
+    text-align: center;
+    margin-top: 60px;
   }
 }
 @media (max-width: 767px) {
@@ -79,5 +116,12 @@ p {
   }
   .starter-template .content .lead {
     font-size: 16px;
+  }
+  .starter-template .links {
+    margin-top: 40px;
+  }
+  .starter-template .links ul li {
+    display: block;
+    margin: 0;
   }
 }

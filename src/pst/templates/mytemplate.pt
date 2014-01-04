@@ -38,6 +38,16 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="links">
+            <ul>
+              <li class="current-version">Currently vX.X</li>
+              <li><a href="http://docs.pylonsproject.org">Docs</a></li>
+              <li><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><a href="irc://irc.freenode.net#pyramid">IRC Channel</a></li>
+              <li><a href="http://pylonsproject.org">Pylons Project</a></li>
+          </div>
+        </div>
       </div>
     </div>
 
