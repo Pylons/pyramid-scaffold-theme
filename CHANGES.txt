@@ -1,4 +1,8 @@
-0.0
----
+Upcoming
+========
 
--  Initial version
+
+0.0 (2014-01-03)
+================
+
+- Project Init
