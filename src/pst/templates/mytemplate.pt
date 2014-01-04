@@ -42,10 +42,15 @@
           <div class="links">
             <ul>
               <li class="current-version">Currently vX.X</li>
-              <li><a href="http://docs.pylonsproject.org">Docs</a></li>
-              <li><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
-              <li><a href="irc://irc.freenode.net#pyramid">IRC Channel</a></li>
-              <li><a href="http://pylonsproject.org">Pylons Project</a></li>
+              <li><i class="glyphicon glyphicon-bookmark icon-muted"></i><a href="http://docs.pylonsproject.org">Docs</a></li>
+              <li><i class="glyphicon glyphicon-cog icon-muted"></i><a href="https://github.com/Pylons/pyramid">Github Project</a></li>
+              <li><i class="glyphicon glyphicon-globe icon-muted"></i><a href="irc://irc.freenode.net#pyramid">IRC Channel</a></li>
+              <li><i class="glyphicon glyphicon-home icon-muted"></i><a href="http://pylonsproject.org">Pylons Project</a></li>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            Copyright © Pylons Project
           </div>
         </div>
       </div>

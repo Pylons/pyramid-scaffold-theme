@@ -112,11 +112,28 @@ p {
                 a {
                     color: @white;
                     &:hover {
-                        text-decoration: dotted;
+                        text-decoration: underline;
                     }
+                }
+                .icon-muted {
+                    color: lighten(@brand-red, 30%);
+                    margin-right: 5px;
+                }
+            }
+            li:hover {
+                .icon-muted {
+                    color: @white;
                 }
             }
         }
+    }
+    .copyright {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: lighten(@brand-red, 40%);
+        text-transform: lowercase;
+        float: right;
+        right: 0;
     }
 }
 
@@ -161,6 +178,10 @@ p {
         text-align: center;
         margin-top: 60px;
     }
+    .copyright {
+        float: none;
+        text-align: center;
+    }
 }
 
 }
@@ -185,8 +206,14 @@ p {
             li {
                 display: block;
                 margin: 0;
+                .icon-muted {
+                    display: none;
+                }
             }
         }
+    }
+    .copyright {
+        margin-top: 20px;
     }
 }
 
